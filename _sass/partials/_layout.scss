@@ -9,8 +9,25 @@
   width: 100%;
   padding-top: 15px;
 
-  nav {
+  .site-title {
+    letter-spacing: 2px;
+  }
+
+  .site-nav {
     font-family: monospace;
+
+    #link-github {
+      font-size: $base-font-size * 1.9;
+    }
+
+    #link-instagram {
+      font-size: $base-font-size * 1.9;
+    }
+
+    #link-mail {
+      font-size: $base-font-size * 1.8;
+    }
+
   }
 
   button {
