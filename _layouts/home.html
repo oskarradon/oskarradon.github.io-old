@@ -6,13 +6,9 @@ layout: default
 
   {{ content }}
 
-  <section class="post-list">
+  <section class="post-grid">
     {% for post in site.posts %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.excerpt }}</a>
-        </h2>
-      </li>
+      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.excerpt }}</a>
     {% endfor %}
   </section>
 

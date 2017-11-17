@@ -120,13 +120,12 @@
   @include relative-font-size(1.25);
 }
 
-.post-list {
-  margin-left: 0;
-  list-style: none;
-
-  > li {
-    margin-bottom: $spacing-unit;
-  }
+.post-grid {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 30px 30px 30px 30px 30px;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
 }
 
 .post-meta {
