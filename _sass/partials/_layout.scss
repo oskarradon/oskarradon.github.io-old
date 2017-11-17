@@ -4,6 +4,19 @@
 .site-header {
   min-height: $spacing-unit * 1.865;
   font-size: $base-font-size * 1.5;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  padding-top: 15px;
+
+  nav {
+    font-family: monospace;
+  }
+
+  button {
+    font-size: $base-font-size * 1.5;
+    padding: 0px;
+  }
 }
 
 
