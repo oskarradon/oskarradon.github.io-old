@@ -123,19 +123,15 @@
 .post-grid {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 30px 30px 30px 30px 30px;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
-}
-
-.post-meta {
-  font-size: $small-font-size;
-  color: $grey-color;
+  grid-template-columns: 40px 40px 40px 40px 40px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
 }
 
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
+  height: 40px;
+  line-height: 1;
 }
 
 
