@@ -8,6 +8,12 @@
         url('fonts/HKGrotesk-Regular.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'Infini';
+  src:  url('fonts/Infini-Regular.woff2') format('woff2'),
+        url('fonts/Infini-Regular.woff') format('woff');
+}
+
 // Define defaults for each variable.
 
 $base-font-family: "HK Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
