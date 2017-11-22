@@ -32,7 +32,7 @@
 
   button {
     padding: 0px;
-    font-size: $base-font-size * 1.9;
+    font-size: $base-font-size * 1.5;
   }
 }
 
@@ -54,6 +54,11 @@
 
 .page-heading {
   @include relative-font-size(1.25);
+}
+
+#heading__selected-works {
+  font-family: 'Infini';
+  text-align: center;
 }
 
 .post-grid {

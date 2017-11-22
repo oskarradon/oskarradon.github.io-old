@@ -5,7 +5,7 @@ layout: default
 <div class="home">
 
   {{ content }}
-
+  <h2 id="heading__selected-works">Selected Works</h2>
   <section class="post-grid">
     {% for post in site.posts %}
       <a class="post-link" href="{{ post.url | relative_url }}">{{ post.excerpt }}</a>
