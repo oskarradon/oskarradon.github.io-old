@@ -1,0 +1,5 @@
+$(() => {
+
+  // $('body').css({'backgroundColor': 'blue'});
+
+});
