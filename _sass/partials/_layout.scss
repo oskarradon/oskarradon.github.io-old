@@ -14,25 +14,8 @@
   }
 
   .site-nav {
-    font-family: monospace;
-
-    #link-github {
-      font-size: $base-font-size * 1.9;
-    }
-
-    #link-instagram {
-      font-size: $base-font-size * 1.9;
-    }
-
-    #link-mail {
-      font-size: $base-font-size * 1.8;
-    }
-
-  }
-
-  button {
-    padding: 0px;
-    font-size: $base-font-size * 1.5;
+    font-size: $base-font-size;
+    font-weight: bold;
   }
 }
 
