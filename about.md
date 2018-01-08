@@ -4,15 +4,36 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Oskar Radon is a UX designer and web developer living and working in Portland, OR.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+[oradon@protonmail.com](mailto:oradon@protonmail.com)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+# Education
+
+Pacific Northwest College of Art \| 2017 - 2021 <br>
+Intermedia program (Design, creative coding, VR/AR focus)
 
 
-[jekyll-organization]: https://github.com/jekyll
+Hack Oregon University \| 2016 <br>
+UX Design certificate program
+
+
+Epicodus \| 2016 <br>
+Web Design certificate program
+
+# Experience
+
+PNCA Communication Department \| 2017 - current <br>
+UX Design internship
+
+WebMD Health Services \| 2017 <br>
+UX/Visual Design internship
+
+PNCA Make + Think + Code Lab \| 2017 <br>
+Lab technician & workshop instructor
+
+GRAYBOX \| 2016 <br>
+Web development internship
+
+Freelance \| 2016 - current <br>
+UX Design & Web development
