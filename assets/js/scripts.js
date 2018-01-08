@@ -1,5 +1,1 @@
-$(() => {
 
-  // $('body').css({'backgroundColor': 'blue'});
-
-});
