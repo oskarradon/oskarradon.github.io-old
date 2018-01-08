@@ -34,20 +34,6 @@ var material1 = new THREE.MeshPhongMaterial({
 var shape1 = new THREE.Mesh(geometry1, material1);
 scene.add(shape1);
 
-// shape 2
-
-var geometry2 = new THREE.TorusKnotGeometry( 100, 30, 400, 16, 2, 8 );
-
-var material2 = new THREE.MeshPhongMaterial({
-  emissive: 0x5AD95A,
-  emissiveIntensity: 0.4,
-  shininess: 0
-})
-
-var shape2 = new THREE.Mesh(geometry2, material2);
-shape2.position.set(500, 0, 0);
-scene.add(shape2);
-
 
 renderer.setPixelRatio(window.devicePixelRatio > 1 ? 2 : 1); // what does this do?
 renderer.setSize(width, height);
@@ -55,13 +41,11 @@ renderer.setClearColor(0xffffff); // bg color
 
 function rotate(s) {
   s.rotation.z = s.rotation.z + .001;
-  // shape.rotation.x = shape.rotation.x + .01;
 }
 
 function render(a) {
   requestAnimationFrame(render);
   rotate(shape1);
-  rotate(shape2);
   renderer.render(scene, camera);
 }
 
