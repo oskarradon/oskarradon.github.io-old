@@ -39,13 +39,13 @@ renderer.setPixelRatio(window.devicePixelRatio > 1 ? 2 : 1); // what does this d
 renderer.setSize(width, height);
 renderer.setClearColor(0xffffff); // bg color
 
-function rotate(s) {
-  s.rotation.z = s.rotation.z + .001;
+function rotate(s, increment) {
+  s.rotation.z = s.rotation.z + increment;
 }
 
 function render(a) {
   requestAnimationFrame(render);
-  rotate(shape1);
+  rotate(shape1, .001);
   renderer.render(scene, camera);
 }
 
@@ -59,7 +59,23 @@ function onResize() {
   renderer.setSize(width, height);
 }
 
+function onMouseMove(e) {
+  console.log(e.clientX, e.clientY);
+  if ( e.clientX < 500  && e.clientY < 500 ) {
+    console.log("yes");
+  } else if ( e.clientX > 500 && e.clientY < 500 ) {
+    console.log("yes");
+  } else if ( e.clientX < 500 && e.clientY > 500 ) {
+    console.log("yes");
+  } else if ( e.clientX > 500 && e.clientY > 500 ) {
+    console.log("yes");
+  }
+
+}
+
+
 requestAnimationFrame(render);
+window.addEventListener("mousemove", onMouseMove);
 var resizeTm;
 window.addEventListener("resize", function(){
     resizeTm = clearTimeout(resizeTm);
