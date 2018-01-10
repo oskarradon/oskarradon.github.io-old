@@ -9,17 +9,17 @@ var renderer = new THREE.WebGLRenderer({
 
 var scene = new THREE.Scene();
 
-var camera = new THREE.PerspectiveCamera(100, width / height, 0.1, 10000);
-camera.position.set(0, 0, 300); // center the camera
+var camera = new THREE.PerspectiveCamera( 100, width / height, 0.1, 10000 );
+camera.position.set( 0, 0, 300 ); // center the camera
 
-var light = new THREE.HemisphereLight(0xffffff, 0x182F63, 0.6);
-light.position.set(200, 300, 400);
+var light = new THREE.HemisphereLight( 0xffffff, 0x182F63, 0.6 );
+light.position.set( 200, 300, 400 );
 
 
-var light2 = new THREE.DirectionalLight(0x763ED1, 0.4);
+var light2 = new THREE.DirectionalLight( 0x763ED1, 0.4 );
 light2.position.set(200, 300, 400);
 
-scene.add(light, light2);
+scene.add( light, light2 );
 
 // shape 1
 
@@ -31,13 +31,13 @@ var material1 = new THREE.MeshPhongMaterial({
   shininess: 0
 })
 
-var shape1 = new THREE.Mesh(geometry1, material1);
+var shape1 = new THREE.Mesh( geometry1, material1 );
 scene.add(shape1);
 
 
-renderer.setPixelRatio(window.devicePixelRatio > 1 ? 2 : 1); // what does this do?
-renderer.setSize(width, height);
-renderer.setClearColor(0xffffff); // bg color
+renderer.setPixelRatio( window.devicePixelRatio > 1 ? 2 : 1 ); // what does this do?
+renderer.setSize( width, height );
+renderer.setClearColor( 0xffffff ); // bg color
 
 function rotate(s, increment) {
   s.rotation.z = s.rotation.z + increment;
@@ -62,17 +62,29 @@ function onResize() {
 function onMouseMove(e) {
   console.log(e.clientX, e.clientY);
   if ( e.clientX < 500  && e.clientY < 500 ) {
-    console.log("yes");
+    changeLightColor('red');
   } else if ( e.clientX > 500 && e.clientY < 500 ) {
-    console.log("yes");
-  } else if ( e.clientX < 500 && e.clientY > 500 ) {
-    console.log("yes");
-  } else if ( e.clientX > 500 && e.clientY > 500 ) {
-    console.log("yes");
-  }
 
+  } else if ( e.clientX < 500 && e.clientY > 500 ) {
+
+  } else if ( e.clientX > 500 && e.clientY > 500 ) {
+
+  }
 }
 
+function changeLightColor (value){
+    var initial = new THREE.Color(light2.color.getHex());
+
+    var value = new THREE.Color(value.color.getHex());
+
+    TweenMax.to(initial, 1, {
+      r: value.r,
+      g: value.g,
+      b: value.b,
+      ease: Cubic.easeInOut,
+      onUpdate: function() { light2.color = initial; }
+    });
+}
 
 requestAnimationFrame(render);
 window.addEventListener("mousemove", onMouseMove);
