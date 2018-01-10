@@ -27,6 +27,17 @@
  * Site footer
  */
 
+footer {
+  position: fixed;
+  bottom: 15px;
+  width: 100%;
+  font-size: $base-font-size * 1.5;
+  section {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 
  /**
   * Canvas stuff
@@ -83,9 +94,6 @@
 /**
  * Posts
  */
-.post-header {
-  margin-bottom: $spacing-unit;
-}
 
 .post-title {
   font-family: "Infini";

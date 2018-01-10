@@ -4,8 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Oskar Radon is a UX designer and web developer living and working in Portland, OR.
-
+Oskar Radon is a UX designer and web developer living and working in Portland, OR. <br>
 [oradon@protonmail.com](mailto:oradon@protonmail.com)
 
 # Education
@@ -15,7 +14,7 @@ Intermedia program (Design, creative coding, VR/AR focus)
 
 
 Hack Oregon University \| 2016 <br>
-UX Design certificate program
+UX Design class
 
 
 Epicodus \| 2016 <br>
@@ -30,7 +29,7 @@ WebMD Health Services \| 2017 <br>
 UX/Visual Design internship
 
 PNCA Make + Think + Code Lab \| 2017 <br>
-Lab technician & workshop instructor
+Lab technician
 
 GRAYBOX \| 2016 <br>
 Web development internship
