@@ -2,7 +2,17 @@
 layout: post
 title:  "Atrium of the Sun"
 date:   2017-11-16 17:21:59 -0800
-categories: art collaboration
+category: [2017]
 ---
 
-![A digital drawing of the swirling bone]({{ "/assets/img/Artboard 3.png" | absolute_url }})
+![An image of the Atrium of the Sun website]({{ "/assets/img/atrium1.jpg" | absolute_url }})
+
+Atrium of the Sun is a collaborative project between myself and Lisa Radon. It was a part of the Sensory Gymnastics exhibition at Disjecta in Portland, OR.
+
+I developed the site in HTML, CSS, and Javascript, using Gulp to automate CSS, JS, and image minification, and to run a development server with BrowserSync.
+
+# Links
+
+[Atrium of the Sun](http://www.atriumofthesun.com/)<br>
+["Folds unfolds on folds unfolds: A conversation with Lisa Radon, launching Atrium of the Sun," AQNB](http://www.aqnb.com/2017/02/28/folds-unfolds-on-folds-unfolds-a-conversation-with-lisa-radon-and-the-launch-of-atrium-of-the-sun/)<br>
+["Sensory Gymnastics," Disjecta](https://www.disjecta.org/portfolio-items/sensory-gymnastics/)

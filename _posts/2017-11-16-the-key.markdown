@@ -1,8 +1,0 @@
----
-layout: post
-title:  "The Key"
-date:   2017-11-16 17:21:59 -0800
-categories: art commission
----
-
-![A digital drawing of a stylized key sigil]({{ "/assets/img/key.png" | absolute_url }})
