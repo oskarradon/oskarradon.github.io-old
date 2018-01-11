@@ -9,4 +9,8 @@ category: [2017]
 
 Discursive Impulse is a writing platform published by the Pacific Northwest College of Art (PNCA) MA in Critical Studies program and the Center for Contemporary Art & Culture.
 
-I designed and built the site as a part of my workstudy internship in the PNCA Communications department. The site uses Ghost which was a dream to develop a theme for, their docs are very well written. My favorite detail in this project is the `a:hover` state animation. 
+I designed and built the site as a part of my workstudy internship in the PNCA Communications department. The site uses Ghost which was a dream to develop a theme for, as their docs are very well written. My favorite detail in this project is the `a:hover` animation.
+
+# Links
+
+[Discursive Impulse](http://www.discursiveimpulse.com)

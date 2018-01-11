@@ -9,7 +9,7 @@ category: [2017]
 
 Atrium of the Sun is a collaborative project between myself and Lisa Radon. It was a part of the Sensory Gymnastics exhibition at Disjecta in Portland, OR.
 
-I developed the site in HTML, CSS, and Javascript, using Gulp to automate CSS, JS, and image minification, and to run a development server with BrowserSync.
+It is a static site which I developed using Gulp to automate CSS, JS, and image minification, and to run a development server with BrowserSync.
 
 # Links
 
