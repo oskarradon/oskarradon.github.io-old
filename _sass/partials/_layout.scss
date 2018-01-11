@@ -135,4 +135,8 @@ footer {
       @include relative-font-size(1.125);
     }
   }
+
+  p:first-of-type {
+    border-style: double;
+  }
 }
