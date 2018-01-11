@@ -3,3 +3,7 @@ var cloud = document.querySelector("footer span#cloud"),
     flag = document.querySelector("footer span#flag"),
     peace = document.querySelector("footer span#peace"),
     smiley = document.querySelector("footer span#smiley");
+
+star.addEventListener("click", () => {
+  console.log('hi')
+});

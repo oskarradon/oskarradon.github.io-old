@@ -140,3 +140,12 @@ footer {
     border-style: double;
   }
 }
+
+/**
+ * Footer animations
+ */
+
+.tomato {
+  color: tomato;
+  transition: color 1s ease;
+}
