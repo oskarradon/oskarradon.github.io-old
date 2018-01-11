@@ -5,5 +5,6 @@ var cloud = document.querySelector("footer span#cloud"),
     smiley = document.querySelector("footer span#smiley");
 
 star.addEventListener("click", () => {
-  console.log('hi')
+  console.log(document.getElementsByTagName("a"))
+  // .className += " tomato";
 });
