@@ -78,12 +78,14 @@ function onMouseMove(e) {
 function changeLightColor (c){
   console.log(c);
   console.log(light2.color)
-  light2.color.set(c);
-    // TweenMax.to(light2, 4, {
-    //   color: c,
-    //   ease: Cubic.easeInOut,
-    //   // onUpdate: function() { light2.color = initial; }
-    // });
+  // light2.color.set(c);
+    TweenMax.to(light2.color, 4, {
+      r: c.r,
+      g: c.g,
+      b: c.b,
+      ease: Cubic.easeInOut,
+      // onUpdate: function() { light2.color = initial; }
+    });
 }
 
 requestAnimationFrame(render);
