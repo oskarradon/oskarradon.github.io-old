@@ -60,7 +60,7 @@ function onResize() {
 }
 
 function onMouseMove(e) {
-  console.log(e.clientX, e.clientY);
+  // console.log(e.clientX, e.clientY);
 
   var color1 = new THREE.Color( 0xe3d8fe );
 
@@ -76,17 +76,14 @@ function onMouseMove(e) {
 }
 
 function changeLightColor (c){
-    var initial = new THREE.Color(light2.color.getHex());
-    console.log(initial)
-    var value = c.getHex();
-    console.log(value)
-    TweenMax.to(initial, 1, {
-      r: value.r,
-      g: value.g,
-      b: value.b,
-      ease: Cubic.easeInOut,
-      onUpdate: function() { light2.color = initial; }
-    });
+  console.log(c);
+  console.log(light2.color)
+  light2.color.set(c);
+    // TweenMax.to(light2, 4, {
+    //   color: c,
+    //   ease: Cubic.easeInOut,
+    //   // onUpdate: function() { light2.color = initial; }
+    // });
 }
 
 requestAnimationFrame(render);
