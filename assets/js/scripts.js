@@ -61,8 +61,11 @@ function onResize() {
 
 function onMouseMove(e) {
   console.log(e.clientX, e.clientY);
+
+  var color1 = new THREE.Color( 0xe3d8fe );
+
   if ( e.clientX < 500  && e.clientY < 500 ) {
-    changeLightColor('red');
+    changeLightColor( color1 );
   } else if ( e.clientX > 500 && e.clientY < 500 ) {
 
   } else if ( e.clientX < 500 && e.clientY > 500 ) {
@@ -72,11 +75,11 @@ function onMouseMove(e) {
   }
 }
 
-function changeLightColor (value){
+function changeLightColor (c){
     var initial = new THREE.Color(light2.color.getHex());
-
-    var value = new THREE.Color(value.color.getHex());
-
+    console.log(initial)
+    var value = c.getHex();
+    console.log(value)
     TweenMax.to(initial, 1, {
       r: value.r,
       g: value.g,
