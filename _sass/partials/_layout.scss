@@ -16,8 +16,12 @@
 
   .about-link {
     float: right;
-    color: blue;
+    color: black;
     text-decoration: underline;
+    &:hover {
+      color: blue;
+      transition: color .3s;
+    }
   }
 }
 
@@ -104,8 +108,12 @@ footer {
   margin-bottom: $spacing-unit;
 
   a {
-    color: blue;
+    color: black;
     text-decoration: underline;
+    &:hover {
+      color: blue;
+      transition: color .3s;
+    }
   }
 
   h1, h2, h3, h4, h5 {
@@ -134,10 +142,6 @@ footer {
     @include media-query($on-laptop) {
       @include relative-font-size(1.125);
     }
-  }
-
-  p:first-of-type {
-    border-style: double;
   }
 }
 
