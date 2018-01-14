@@ -6,6 +6,10 @@ var cloud = document.querySelector("footer span#cloud"),
 
 star.addEventListener("click", () => {
 	Array.from(document.getElementsByTagName("a")).forEach(e => {
-		e.className += " tomato";
+		if (!Array.from(e.classList).contains("tomato")) {
+			e.classList.add("tomato");
+		} else {
+			e.classList.remove("tomato");
+		}
 	});
 });

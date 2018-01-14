@@ -20,6 +20,7 @@
     text-decoration: underline;
     &:hover {
       color: blue;
+      -webkit-transition: color .3s;
       transition: color .3s;
     }
   }
@@ -37,8 +38,12 @@ footer {
   width: 100%;
   font-size: $base-font-size * 1.5;
   .inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
@@ -112,7 +117,8 @@ footer {
     text-decoration: underline;
     &:hover {
       color: blue;
-      transition: color .3s;
+      -webkit-transition: color .3s both;
+      transition: color .3s both;
     }
   }
 
@@ -151,5 +157,6 @@ footer {
 
 .tomato {
   color: tomato !important;
+  -webkit-transition: color 1s ease;
   transition: color 1s ease;
 }
