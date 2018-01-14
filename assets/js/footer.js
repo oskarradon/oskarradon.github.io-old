@@ -5,11 +5,11 @@ var cloud = document.querySelector("footer span#cloud"),
 	smiley = document.querySelector("footer span#smiley");
 
 star.addEventListener("click", () => {
-	Array.from(document.getElementsByTagName("a")).forEach(e => {
-		if (!Array.from(e.classList).contains("tomato")) {
-			e.classList.add("tomato");
+	Array.from(document.getElementsByTagName("a")).forEach(el => {
+		if (Array.from(el.classList).indexOf("tomato")) {
+			el.classList.remove("tomato");
 		} else {
-			e.classList.remove("tomato");
+			el.classList.add("tomato");
 		}
 	});
 });
