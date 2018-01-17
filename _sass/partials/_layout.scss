@@ -65,8 +65,7 @@ footer {
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
-  padding-top: 80px;
+  padding: 80px 0px;
 }
 
 .page-heading {
@@ -81,9 +80,15 @@ footer {
 .post-grid {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
+  @include media-query($on-palm) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  @include media-query($on-laptop) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
 .post-link {
@@ -98,6 +103,10 @@ footer {
   max-height: 100px;
 }
 
+.post-grid-title {
+  padding-top: 5px;
+  margin: 0px;
+}
 
 
 /**
