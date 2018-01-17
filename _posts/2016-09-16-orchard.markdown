@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "To Heal a Healing Machine"
+date:   2017-11-16 17:21:59 -0800
+category: [2016]
+---
+
+![An image of the Paimio website]({{ "/assets/img/paimio1.jpg" | absolute_url }})
+
+# Links
+
+[To heal a healing machine](http://www.ahealingmachine.com)<br>
+["To heal a healing machine," Lisa Radon](http://lisaradon.com/healing.html)<br>
+["To heal a healing machine," Mikko Kuorinki](http://kuorinki.com/works/to-heal-a-healing-machine/)
