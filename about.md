@@ -5,17 +5,15 @@ permalink: /about/
 ---
 
 Oskar Radon is a UX designer and web developer living and working in Portland, OR. <br>
-[oradon@protonmail.com](mailto:oradon@protonmail.com)
+[oradonkimball@pnca.edu](mailto:oradonkimball@pnca.edu)
 
 # Education
 
 Pacific Northwest College of Art \| 2017 - 2021 <br>
 Intermedia program (Design, creative coding, VR/AR focus)
 
-
 Hack Oregon University \| 2016 <br>
 UX Design class
-
 
 Epicodus \| 2016 <br>
 Web Design certificate program
