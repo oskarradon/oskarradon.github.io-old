@@ -80,14 +80,14 @@ footer {
 .post-grid {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: minmax(20px, auto);
   @include media-query($on-palm) {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
   }
   @include media-query($on-laptop) {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
@@ -97,10 +97,6 @@ footer {
   p {
     margin-bottom: 0px;
   }
-}
-
-.post-link img {
-  max-height: 100px;
 }
 
 .post-grid-title {
