@@ -10,4 +10,4 @@ category: [2016]
 # Links
 
 [Orchard47](https://www.47orchard.org/)<br>
-["ORCHARD, Yale Union"](https://yaleunion.org/orchard/)
+["ORCHARD," Yale Union](https://yaleunion.org/orchard/)
