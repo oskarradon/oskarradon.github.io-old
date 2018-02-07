@@ -18,7 +18,7 @@ UX Design class
 Epicodus \| 2016 <br>
 Web Design certificate program
 
-Illustration Class with Carson Ellis, Dana Dart-McClean \| 2009
+Illustration Class with Carson Ellis & Dana Dart-McClean \| 2009
 
 # Experience
 
