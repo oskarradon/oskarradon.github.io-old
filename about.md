@@ -18,10 +18,12 @@ UX Design class
 Epicodus \| 2016 <br>
 Web Design certificate program
 
+Illustration Class with Carson Ellis, Dana Dart-McClain \| 2009
+
 # Experience
 
 PNCA Communication Department \| 2017 - current <br>
-UX Design internship
+UX Design, Visual Design, Front-end Development internship
 
 WebMD Health Services \| 2017 <br>
 UX/Visual Design internship
