@@ -34,5 +34,5 @@ Lab technician
 GRAYBOX \| 2016 <br>
 Web development internship
 
-Freelance \| 2016 - current <br>
+Freelance \| 2015 - current <br>
 UX Design & Web development
