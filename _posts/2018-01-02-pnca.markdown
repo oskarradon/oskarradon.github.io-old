@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Pacific Northwest College of Art"
+date:   2018-01-02 17:21:59 -0800
+category: [2018]
+---
+
+![An image of the front page of the PNCA website]({{ "/assets/img/pnca1.png" | absolute_url }})
+
+
+
+# Links
+
+[PNCA News Page](https://pnca.edu/news)

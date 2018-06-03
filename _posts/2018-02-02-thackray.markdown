@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Emily Thackray"
+date:   2018-02-02 17:21:59 -0800
+category: [2018]
+---
+
+![An image of the front page of Emily Thackray's portfolio website]({{ "/assets/img/thackray1.jpg" | absolute_url }})
+
+Emily Thackray is a teacher and designer from Portland, OR. I built her portfolio site as a freelance project using Wordpress and from her specifications. The text on the front of the page moves in a serpentine pattern, which is accomplished by adding each project link in the Wordpress loop into a `<textPath>` element inside of an inline SVG drawn in Illustrator by Emily. This element's `startOffset` property is then animated using the GreenSock animation library.
+
+The top navigation of the site incorporates small drawings that also link to each project, as per Emily's specifications. These are the Featured Images of each post. The typefaces used are [Kavivanar](https://fonts.google.com/specimen/Kavivanar/) and [Galdeano](https://fonts.google.com/specimen/Galdeano/), which are both Google fonts.
+
+# Links
+
+[Emily Thackray](https://www.emlouise.xyz/)
