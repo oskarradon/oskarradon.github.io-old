@@ -11,6 +11,20 @@ Emily Thackray is a teacher and designer from Portland, OR. I built her portfoli
 
 The top navigation of the site incorporates small drawings that also link to each project, as per Emily's specifications. These are the Featured Images of each post. The typefaces used are [Kavivanar](https://fonts.google.com/specimen/Kavivanar/) and [Galdeano](https://fonts.google.com/specimen/Galdeano/), which are both Google fonts.
 
+# Process
+
+I began our email conversation with some basic knowledge about what the main goals were for the site: display images and descriptions of her past work, and have a CV page with her work experience and a way to contact her. Emily also specified some ideas for interactions: a list of project names on the front page that moved like a snake, and a navigation of small drawings that linked to each of the projects. She sent over a drawing of what it might look like and I got to work.
+
+![An image of Emily's drawing of the serpentine text]({{ "/assets/img/thackray3.png" }})
+
+First I thought about making a 3D animation with threeJS of text moving in a looping pattern that would come closer and farther away from the camera. Thinking about how I would accomplish this I knew that the text would have to move along a path, which got me thinking about the text on path function in Illustrator. I remembered reading something on CSS Tricks or seeing a pen on CodePen about text on path using SVGs, and I decided to do some research. First I found the CSS Tricks article that I had originally stumbled upon: [CSS Tricks: Curved Text Along Path](https://css-tricks.com/snippets/svg/curved-text-along-path/). After some more Googling I found this helpful article: [Joni Bologna: Animating SVG text On A Path](http://jonibologna.com/svg-text-along-a-path/), and I knew Emily's original idea was possible. I began making wireframes in Sketch.
+
+![An image of my first wireframes]({{ "/assets/img/thackray5.png" }})
+
+After talking with her about these designs I realized I had forgotten to include a link to her CV. I amended the designs so that the small drawings in the top nav would be center aligned, and her CV link would be left aligned with the container. My next step was sending her mockups with different typeface combinations. She had previously sent me a list of Google Fonts that I should choose from, so I made a deliverable with different pairings and sent it over. She decided on Macondo Swash Caps and Kavivanar, but this would later change to Galdeano.
+
+![An image of my first wireframes]({{ "/assets/img/thackray6.png" }})
+
 # Links
 
 [Emily Thackray](https://www.emlouise.xyz/)

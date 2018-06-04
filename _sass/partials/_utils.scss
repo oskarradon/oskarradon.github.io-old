@@ -1,0 +1,9 @@
+// this prevents the scrollbar jumping issue
+
+html {
+	overflow: auto;
+	margin-left: calc(100vw - 100%);
+	body {
+		margin: 0 auto;
+	}
+}

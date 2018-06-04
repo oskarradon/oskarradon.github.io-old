@@ -2,6 +2,12 @@
  * Site header
  */
 
+a:hover {
+   color: blue;
+   -webkit-transition: color .3s both;
+   transition: color .3s both;
+ }
+
 .site-header {
   font-family: 'Sporting Grotesque';
   min-height: $spacing-unit * 1.865;
@@ -87,9 +93,12 @@ footer {
 .post-link {
   display: block;
   line-height: 1;
-  border: 1px solid black;
   p {
     margin-bottom: 0px;
+    img {
+      border: 1px solid black;
+      max-height: 209.8px;
+    }
   }
 }
 
@@ -119,11 +128,6 @@ footer {
 
   a {
     text-decoration: underline;
-    &:hover {
-      color: blue;
-      -webkit-transition: color .3s both;
-      transition: color .3s both;
-    }
   }
 
   h1, h2, h3, h4, h5 {
