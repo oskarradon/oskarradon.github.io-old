@@ -2,7 +2,7 @@
 layout: post
 title:  "Discursive Impulse"
 date:   2017-11-16 17:21:59 -0800
-category: [2017]
+category: [projects]
 ---
 
 ![An image of the Discursive Impulse website]({{ "/assets/img/discursive1.jpg" | absolute_url }})

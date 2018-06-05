@@ -2,7 +2,7 @@
 layout: post
 title:  "Emily Thackray"
 date:   2018-02-02 17:21:59 -0800
-category: [2018]
+category: [projects]
 ---
 
 ![An image of the front page of Emily Thackray's portfolio website]({{ "/assets/img/thackray1.jpg" | absolute_url }})
@@ -13,7 +13,7 @@ The top navigation of the site incorporates small drawings that also link to eac
 
 # Process
 
-I began our email conversation with some basic knowledge about what the main goals were for the site: display images and descriptions of her past work, and have a CV page with her work experience and a way to contact her. Emily also specified some ideas for interactions: a list of project names on the front page that moved like a snake, and a navigation of small drawings that linked to each of the projects. She sent over a drawing of what it might look like and I got to work.
+I began our email conversation with some basic knowledge about what the main goals were for the site: display images and descriptions of her past work, and have a CV page with her work experience and a way to contact her. Off the bat I knew that the site should be minimal, the better to show off images of her work, and should have a link to her CV be of equal importance to the projects being showcased. I knew I would be using a CMS to make the process of uploading projects easier, and to make it customizable for her in the long run. In our conversation Emily also specified some ideas for interactions: a list of project names on the front page that moved like a snake, and a navigation of small drawings that linked to each of the projects. She sent over a drawing of what it might look like and I got to work.
 
 ![An image of Emily's drawing of the serpentine text]({{ "/assets/img/thackray3.png" }})
 
@@ -21,9 +21,14 @@ First I thought about making a 3D animation with threeJS of text moving in a loo
 
 ![An image of my first wireframes]({{ "/assets/img/thackray5.png" }})
 
-After talking with her about these designs I realized I had forgotten to include a link to her CV. I amended the designs so that the small drawings in the top nav would be center aligned, and her CV link would be left aligned with the container. My next step was sending her mockups with different typeface combinations. She had previously sent me a list of Google Fonts that I should choose from, so I made a deliverable with different pairings and sent it over. She decided on Macondo Swash Caps and Kavivanar, but this would later change to Galdeano.
+After talking with her about these designs I realized I had forgotten to include a link to her CV. I amended the designs so that the small drawings in the top nav would be center aligned, and her CV link would be left aligned with the container. My next step was sending her higher-fidelity mockups with different typeface combinations. She had previously sent me a list of Google Fonts that I should choose from, so I made a deliverable with different pairings and sent it over. She decided on Macondo Swash Caps and Kavivanar, but we would later decide on Galdeano. I also had a black border around an item in the top nav when a user was on the page it represented, but I felt that this would be too distracting since borders weren't used elsewhere in the design.
 
 ![An image of my first wireframes]({{ "/assets/img/thackray6.png" }})
+
+After these mockups were approved I set about building the site. I started with the bare minimum, an `index.php` with the WordPress loop and a link to the `style.css` file with the theme information. I began to develop the site, using Flywheel's excellent local hosting platform [Local](https://local.getflywheel.com/). For my earlier WordPress sites I had used MAMP and Apache, but this proved to be a much easier way to handle a local dev server.
+
+The project moved quickly after this, the most difficult part of the site was definitely the SVG animation, but I think it is also the most visually striking part of the design, and I'm very proud of how it turned out. I showed the site to friends and family to get their feedback, and they all shared my excitement in the front page animation. I think this was important to include in the site because it another reason - her work being the foremost - to remember Emily's portfolio, and help her get her next dream job.
+
 
 # Links
 

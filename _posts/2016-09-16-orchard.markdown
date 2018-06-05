@@ -2,7 +2,7 @@
 layout: post
 title:  "Orchard"
 date:   2017-09-16 17:21:59 -0800
-category: [2016]
+category: [projects]
 ---
 
 ![An image of the Orchard47 website]({{ "/assets/img/orchard1.png" | absolute_url }})

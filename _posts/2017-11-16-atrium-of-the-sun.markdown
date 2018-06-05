@@ -2,7 +2,7 @@
 layout: post
 title:  "Atrium of the Sun"
 date:   2017-11-16 17:21:59 -0800
-category: [2017]
+category: [projects]
 ---
 
 ![An image of the Atrium of the Sun website]({{ "/assets/img/atrium1.jpg" | absolute_url }})

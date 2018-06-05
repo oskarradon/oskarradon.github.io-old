@@ -2,7 +2,7 @@
 layout: post
 title:  "To Heal a Healing Machine"
 date:   2017-11-16 17:21:59 -0800
-category: [2016]
+category: [projects]
 ---
 
 ![An image of the Paimio website]({{ "/assets/img/paimio1.jpg" | absolute_url }})
