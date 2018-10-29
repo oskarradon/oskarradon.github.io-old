@@ -11,5 +11,5 @@ category: [projects]
 
 # Links
 
-[PNCA News Page](https://pnca.edu/news)
+[PNCA News Page](https://pnca.edu/news) <br>
 [Featured in Communication Arts](https://www.commarts.com/webpicks/pnca)
